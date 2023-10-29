@@ -1,0 +1,771 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+
+.azul{
+    color: #2f86d6;
+}
+
+/* TOPO */
+    .topo{
+        padding: 35px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteudo-topo{
+        width: 1024px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .conteudo-topo img{
+        width: 90px;
+    }
+
+    .conteudo-topo .logomarca{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    
+
+    .conteudo-topo .logomarca p{
+        color: #2f86d6;
+    }
+
+    
+    .link a{
+        width: 100%;
+        margin: 0px 20px;
+        color: #000000;
+        font-size: 18px;
+        transition: 1s;
+    }
+
+    .link a:hover{
+        color: #2f86d6;
+    }
+
+    /* SECÃO BANNER */
+
+        .banner{
+            background-color: rgba(47,134,214,1);
+            padding: 180px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .conteudo-banner{
+            max-width: 1024px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .conteudo-banner .conteudo-escrito{
+            width: 470px;
+            color: #fff;
+            line-height: 32px;
+        }
+
+        .conteudo-escrito p,h2{
+            margin-bottom: 20px;
+        }
+
+        .conteudo-escrito p{
+            font-size: 18px;
+        }
+
+        .conteudo-banner img{
+            width: 50%;
+        }
+
+    /* SECÃO PRIMEIRO ANUNCIO */
+
+            .primeiro-anuncio{
+                padding: 40px 0px;
+                background-color: #233032;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+            .conteudo-1-anuncio{
+                width: 1024px;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                gap: 20px;
+                align-items: center;
+            }
+
+            
+
+            .texto-anuncio{
+                color: white;
+                font-size: 18px;
+                margin: 20px;
+            
+            }
+
+            .conteudo-1-anuncio a{
+                color: white;
+                font-weight: bold;
+                background-color: #2f86d6;
+                padding: 15px;
+                margin: 0 auto;
+                border-radius: 10px;
+                transition: 1s;
+            }
+
+            .conteudo-1-anuncio a:hover{
+                transform: scale(1.05);
+            }
+            .conteudo-1-anuncio a img{
+                margin: -4px 5px;
+            }
+
+    /* SECÃO INFORMAÇÕES */
+
+            .secao-informações{
+                padding: 100px 0px;
+                display: flex;
+                flex-direction: column;
+    
+                
+            }
+
+            .secao-informações h2{
+                width: 100% ;
+                margin: 0px auto;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            .secao-informações h2 .azul{
+                color: #2f86d6;
+            }
+
+            .box-informações{
+                width: 1024px;
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+            }
+
+            .box-informações img{
+                width: 30%;
+            }
+
+            .box-informações div {
+                width: 400px;
+                text-align: center;
+                margin: 0px 5px;
+            }
+    
+
+    /* TABELA PREÇOS */
+
+
+
+            .tabela-mobile-1024px{
+                display: none;
+            }
+            .tabela-mobile{
+                display: none;
+            }
+            
+
+            .tabela-preços {
+                padding: 100px 0px;
+                display: flex;
+                justify-content: center;
+               
+            }
+
+            .conteudo-tabela{
+                max-width: 1024px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+               
+            }
+
+            
+
+            .conteudo-tabela h1{
+                margin-bottom: 50px;
+                text-align: center;
+            }
+
+            .conteudo-tabela table{
+                text-align: center;
+                box-shadow: 0px 0px 20px 10px #2f86d6;
+                margin: 0px auto;
+
+            }
+
+
+            .conteudo-tabela table thead tr th img{
+                width: 100%;
+
+            }
+
+            .conteudo-tabela table thead th p{
+                max-width: 150px;
+                margin: auto;
+                color: #a89f9f;
+            }
+
+            .conteudo-tabela table thead tr th{
+                padding: 40px 40px;
+            }
+
+            .conteudo-tabela table tbody  td {
+                padding: 15px;
+                font-weight: 500;
+                width: 250px;
+                max-width: 1024px;
+                text-align: center;
+
+            }
+
+    /* SEGUNDO ANUNCIO */
+            .segundo-anuncio{
+                padding: 40px 0px;
+                background-color: #2f86d6;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+            .conteudo-2-anuncio{
+                width: 1024px;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                gap: 10px;
+                
+            }
+
+            .segundo-anuncio h3{
+                width: 600px;
+                color: white;
+                font-size: 18px;
+            }
+
+            .conteudo-2-anuncio a{
+                color: white;
+                font-weight: bold;
+                background-color: #233032;
+                padding: 15px;
+                margin: 0 auto;
+                border-radius: 10px;
+                transition: 1s;
+            }
+
+            .segundo-anuncio a:hover{
+                transform: scale(1.05);
+            }
+            .conteudo-2-anuncio a img{
+                margin: -4px 5px;
+            }
+
+    /* rodape */
+
+            .rodape{
+                padding: 50px 0px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .rodape .logomarca img{
+                width: 90px;
+            }
+
+            .logomarca{
+                display: flex;
+                gap: 10px;
+            }
+
+
+
+            .rodape .logomarca p{
+                color: #2f86d6;
+            }
+
+            .rodape .logomarca{
+                width: 400px;
+                margin-bottom: 50px;
+            }
+
+            .bloco-contato{
+                text-align: center;
+                
+            }
+
+            .bloco-contato p{
+                margin-bottom: 20px;
+                font-weight: bold;
+            }
+
+            .criador-name{
+                padding: 30px 0px;
+                text-align: center;
+                margin: 0px auto;
+            }
+
+            .criador-name p{
+                font-weight: bold;
+            }
+
+            
+/* Responsividade */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .conteudo-topo{
+        gap: 5px;
+    }
+
+    .tabela-completa{
+        display: none;
+    }
+
+    .tabela-mobile{
+        display: none;
+    }
+
+    .tabela-mobile-1024px{
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 15px;
+        width: 100%;
+    }
+
+    .tabela-mobile-1024px thead th{
+        background-color: rgb(224, 221, 221);
+    }
+
+    .tabela-mobile-1024px tbody tr:nth-child(even){
+        background-color: rgb(200, 195, 195);
+    }
+
+
+
+    
+
+    .tabela-mobile td{
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+
+    .tabela-mobile table{
+        margin: 10px;
+    }
+
+    
+
+    .tabela-mobile h2{
+        font-size: 18px;
+    }
+
+    .tabela-mobile .segundo-cabeçalho h2{
+        margin-top: 19px;
+    }
+
+    
+
+    
+
+    .link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .banner{
+        padding: 20px;
+    }
+
+    .secao-informações{
+        padding: 20px;
+    }
+
+    .box-informações{
+        margin: 20px;
+    }
+
+    
+
+    .conteudo-tabela h1{
+        width: 50%;
+        padding: 10px;
+    }
+
+    .tabela-preços {
+        padding: 40px 0px;
+        display: flex;
+    }
+
+    
+    .conteudo-tabela table{
+        box-shadow: 0px 0px 0px 0px ;
+    }
+
+    .conteudo-tabela table thead tr th img{
+        width: 40%;
+    }
+
+    .conteudo-2-anuncio{
+        width: 100%;
+    }
+
+    .box-informações{
+        width: 90%;
+    }
+
+    .secao-informações h2{
+        width: 60%;
+    }
+
+    .conteudo-tabela h1{
+        width: 80%;
+    }
+
+    .conteudo-2-anuncio{
+        padding: 0px 10px;
+    }
+
+    .rodape{
+        padding: 10px 10px;
+    }
+    
+    .rodape .logomarca{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rodape .logomarca img{
+        width: 20%;
+    }
+
+
+
+   
+
+
+}
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .conteudo-topo{
+        gap: 5px;
+    }
+
+    .tabela-completa{
+        display: none;
+    }
+
+    .tabela-mobile{
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 15px;
+        width: 100%;
+    }
+
+    .tabela-mobile thead th{
+        background-color: rgb(224, 221, 221);
+    }
+
+    .tabela-mobile tbody tr:nth-child(even){
+        background-color: rgb(200, 195, 195);
+    }
+
+
+
+    
+
+    .tabela-mobile td{
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+
+    .tabela-mobile table{
+        margin: 10px;
+    }
+
+    
+
+    .tabela-mobile h2{
+        font-size: 18px;
+    }
+
+    .tabela-mobile .segundo-cabeçalho h2{
+        margin-top: 19px;
+    }
+
+    
+
+    
+
+    .link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .banner{
+        padding: 20px;
+    }
+
+    .secao-informações{
+        padding: 20px;
+    }
+
+    .box-informações{
+        margin: 20px;
+    }
+
+    
+
+    .conteudo-tabela h1{
+        width: 50%;
+        padding: 10px;
+    }
+
+    .tabela-preços {
+        padding: 40px 0px;
+        display: flex;
+    }
+
+    
+    .conteudo-tabela table{
+        box-shadow: 0px 0px 0px 0px ;
+    }
+
+    .conteudo-tabela table thead tr th img{
+        width: 40%;
+    }
+
+    .conteudo-2-anuncio{
+        width: 100%;
+    }
+
+    .box-informações{
+        width: 90%;
+    }
+
+    .secao-informações h2{
+        width: 60%;
+    }
+
+    .conteudo-tabela h1{
+        width: 80%;
+    }
+
+    .conteudo-2-anuncio{
+        padding: 0px 10px;
+    }
+
+    .rodape{
+        padding: 10px 10px;
+    }
+    
+    .rodape .logomarca{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rodape .logomarca img{
+        width: 20%;
+    }
+
+
+
+   
+
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .conteudo-topo{
+        gap: 5px;
+    }
+
+    .tabela-completa{
+        display: none;
+    }
+
+    
+
+    .tabela-mobile{
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 15px;
+        width: 90%;
+    }
+
+    .tabela-mobile thead th{
+        background-color: rgb(224, 221, 221);
+    }
+
+    .tabela-mobile tbody tr:nth-child(even){
+        background-color: rgb(200, 195, 195);
+    }
+
+
+
+    
+
+    .tabela-mobile td{
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+
+    .tabela-mobile table{
+        margin: 10px;
+        width: 100%;
+    }
+
+    
+
+    .tabela-mobile h2{
+        font-size: 18px;
+    }
+
+    .tabela-mobile .segundo-cabeçalho h2{
+        margin-top: 19px;
+    }
+
+    
+
+    
+
+    .link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .banner{
+        padding: 20px;
+    }
+
+    .secao-informações{
+        padding: 20px;
+    }
+
+    .box-informações{
+        margin: 20px;
+    }
+
+    
+
+    .conteudo-tabela h1{
+        width: 50%;
+        padding: 10px;
+    }
+
+    .tabela-preços {
+        padding: 40px 0px;
+        display: flex;
+    }
+
+    
+    .conteudo-tabela table{
+        box-shadow: 0px 0px 0px 0px ;
+    }
+
+    .conteudo-tabela table thead tr th img{
+        width: 40%;
+    }
+
+    .conteudo-2-anuncio{
+        width: 100%;
+    }
+
+    .box-informações{
+        width: 90%;
+    }
+
+    .secao-informações h2{
+        width: 60%;
+    }
+
+    .conteudo-tabela h1{
+        width: 80%;
+    }
+
+    .conteudo-2-anuncio{
+        padding: 0px 10px;
+    }
+
+    .rodape{
+        padding: 10px 10px;
+        width: 100%;
+    }
+    
+    .rodape .logomarca{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .rodape .logomarca img{
+        width: 20%;
+    }
+
+
+   
+
+
+}
+
+
+
+
+        
+
+
+            
+
+            
+

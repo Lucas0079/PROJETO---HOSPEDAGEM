@@ -1,0 +1,333 @@
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+/* TOPO */
+
+    .secao-topo{
+        padding: 35px 0px;
+        background-color: #2f86d6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .conteudo-topo{
+        width: 1024px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .logomarca{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+   
+    .links{
+        flex-wrap: wrap;
+    }
+    .links a{
+        margin: 0px 20px;
+        color: white;
+        font-weight: bold;
+        transition: 1s;
+    }
+
+    .links a:hover{
+        color: #021425;
+    }
+
+
+    .conteudo-topo .logomarca img{
+        width: 90px;
+    }
+
+
+    
+
+    .conteudo-topo .logomarca p{
+        color: white;
+    }
+
+/* TABELA DE PREÇOS */
+
+
+    
+
+    /* Tabela-mobile-pessoal*/
+        .tabela-mobile-pessoal{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 20px;
+        }
+
+        .tabela-mobile-pessoal table{
+            border: 2px solid black;
+            padding: 5px;
+        }
+
+        .tabela-mobile-pessoal table thead tr th{
+            border: 2px solid black;
+        }
+
+        .tabela-mobile-pessoal table tbody tr td:nth-child(even){
+            background-color: #2f86d6;
+        }
+
+        .tabela-mobile-pessoal table tbody tr td{
+            border: 2px solid black;
+            margin: 5px 0px;
+            padding: 5px;
+        }
+
+        .tabela-mobile-pessoal table tbody td{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Tabela-mobile-profissional*/
+            .tabela-mobile-profissional{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 40px 20px;
+            }
+
+            .tabela-mobile-profissional table{
+                border: 2px solid black;
+                padding: 5px;
+            }
+
+            .tabela-mobile-profissional table thead tr th{
+                border: 2px solid black;
+            }
+
+            .tabela-mobile-profissional table tbody tr td:nth-child(even){
+                background-color: #2f86d6;
+            }
+
+            .tabela-mobile-profissional table tbody tr td{
+                border: 2px solid black;
+                margin: 5px 0px;
+                padding: 5px;
+            }
+
+            .tabela-mobile-profissional table tbody td{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            /* Tabela-mobile-empresarial*/
+                .tabela-mobile-empresarial{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 40px 20px;
+                }
+
+                .tabela-mobile-empresarial table{
+                    border: 2px solid black;
+                    padding: 5px;
+                }
+
+                .tabela-mobile-empresarial table thead tr th{
+                    border: 2px solid black;
+                }
+
+                .tabela-mobile-empresarial table tbody tr td:nth-child(even){
+                    background-color: #2f86d6;
+                }
+
+                .tabela-mobile-empresarial table tbody tr td{
+                    border: 2px solid black;
+                    margin: 5px 0px;
+                    padding: 5px;
+                }
+
+                .tabela-mobile-empresarial table tbody td{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                /* Tabela-mobile-empresarial*/
+                    .tabela-mobile-big-techs{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 40px 20px;
+                    }
+
+                    .tabela-mobile-big-techs table{
+                        border: 2px solid black;
+                        padding: 5px;
+                    }
+
+                    .tabela-mobile-big-techs table thead tr th{
+                        border: 2px solid black;
+                    }
+
+                    .tabela-mobile-big-techs table tbody tr td:nth-child(even){
+                        background-color: #2f86d6;
+                    }
+
+                    .tabela-mobile-big-techs table tbody tr td{
+                        border: 2px solid black;
+                        margin: 5px 0px;
+                        padding: 5px;
+                    }
+
+                    .tabela-mobile-big-techs table tbody td{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+    .tabela-precos{
+        padding: 100px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tabela{
+        max-width: 1024px;
+        text-align: center;
+        line-height: 60px;
+    }
+
+
+
+    .primeiro-td{
+        text-align: left;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    table thead th {
+        padding: 0px 40px;
+    }
+
+
+    .marcador-azul{
+        width: 20px;
+        height: 20px;
+        background-color: #2f86d6;
+        border-radius: 50%;
+        margin: 0px auto;
+    }
+
+
+    /* RODAPE */
+
+        .rodape{
+            padding: 100px 0px;
+            background-color: #2f86d6;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+
+        .logomarca-rodape img{
+            width: 90px;
+        }
+
+        .logomarca-ropape  {
+            width: 400px;
+            display: flex;
+        }
+
+
+        
+
+        .logomarca-rodape p{
+            color: white;
+        }
+
+        .rodape .bloco-copyright{
+            margin-top: 70px;
+            color: white;
+        }
+
+        .autor{
+            width: 100%;
+            height: 80px;
+            background-color: white;
+        }
+
+        .autor p{
+            padding: 30px 0px;
+            text-align: center;
+        }
+
+@media only screen and (min-width: 1280px) and (max-width: 1980px){
+    .tabela-preços-mobile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+    .tabela-preços-mobile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .tabela-preços-mobile{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .tabela{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabela{
+        display: none;
+    }
+
+}
+
+
+
+@media  only screen and (min-width: 320px) and (max-width: 480px){
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabela{
+        display: none;
+    }
+}
+
+
+
+
+        
